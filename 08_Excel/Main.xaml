@@ -120,7 +120,7 @@
       </sap:WorkflowViewStateService.ViewState>
     </ui:ForEachRow>
     <ui:Comment sap:VirtualizedContainerService.HintSize="465,74" sap2010:WorkflowViewState.IdRef="Comment_1" Text="Operaciones con el datatable. Luego guardar la información" />
-    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="465,419" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_2" Visible="False" WorkbookPath="[DateTime.Now.ToString(&quot;yyyy-MM-dd-HH-mm-ss&quot;) + &quot;_Informacion.xlsx&quot;]">
+    <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope Guardar Archivo" sap:VirtualizedContainerService.HintSize="465,419" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_2" Visible="False" WorkbookPath="[DateTime.Now.ToString(&quot;yyyy-MM-dd-HH-mm-ss&quot;) + &quot;_Informacion.xlsx&quot;]">
       <ui:ExcelApplicationScope.Body>
         <ActivityAction x:TypeArguments="ui:WorkbookApplication">
           <ActivityAction.Argument>
